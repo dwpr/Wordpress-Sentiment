@@ -1,8 +1,9 @@
 This project is  my final assignment to take the degree of facilities at Ahmad Dahlan University. 
 This application is useful for providing sentiment info on comments and posts in blog posts (wordpress).
+in this project the method what i use to classify comment to positive, neutral or negative is K-Nearest Neighbour (KNN), you can check step by step POC the method in <a href="https://informatikalogi.com/klasifikasi-teks-menggunakan-k-nn/">https://informatikalogi.com/</a>
 
 ### Required:
-- python
+- python (2.7 or higher)
 - <a href="https://wordpress.org/download/">wordpress</a>
 
 
@@ -11,11 +12,13 @@ This application is useful for providing sentiment info on comments and posts in
 - extract RestAPI_python.zip
 - run on pyhton with this script "python app.py" in your extract folder
 - if error. There are no modules needed such as literature, flask etc., install first ex: pip install flask
+- if other error such as python version maybe you can edit some code to your oython version, cause in this code i'm still use python 2.7
 
 2. Wordpress
 - install the plugin with wordpress (open TAnalyzer.zip)
 - enable plugin (after restAPII running)
-- if want to use my data please comment import my database.db / my database.sql with phmyadmin
+- if want to use my data comment, please import my database.db / my database.sql with phmyadmin
+- the base plugin here is hercules sentiment analyzer, i just edit little bit for showing sentiment from my python restAPI. this Hercules Sentiment analyzer is cool plugin :D
 
 Congratulation \ (^ o ^) /
 <br>
