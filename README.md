@@ -1,4 +1,4 @@
-This project is  my final assignment to take the degree of facilities at Ahmad Dahlan University. 
+This project is  my final assignment to take the degree of facilities at Ahmad Dahlan University <a href="http://digilib.uad.ac.id/penelitian/Penelitian/detail/105578/analisis-sentimen-komentar-tulisan-blog-menggunakan-metode-knearest-neighbour">[paper]</a>. 
 This application is useful for providing sentiment info on comments and posts in blog posts (wordpress).
 in this project the method what i use to classify comment to positive, neutral or negative is K-Nearest Neighbour (KNN), you can check step by step POC the method in <a href="https://informatikalogi.com/klasifikasi-teks-menggunakan-k-nn/">https://informatikalogi.com/</a>
 
